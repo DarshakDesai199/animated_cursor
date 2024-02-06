@@ -1,10 +1,11 @@
+import 'package:animated_cursor/src/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class AnimatedCursor extends StatelessWidget {
   const AnimatedCursor({
     Key? key,
-    this.child,
+    required this.child,
     this.cursor,
     this.circleColor,
     this.dotColor,
@@ -16,15 +17,11 @@ class AnimatedCursor extends StatelessWidget {
     this.borderRadius,
   }) : super(key: key);
 
-  final Widget? child;
+  final Widget child;
   final MouseCursor? cursor;
-  final Color? circleColor;
-  final Color? dotColor;
-  final Color? backgroundColor;
-  final int? circleDuration;
-  final int? dotDuration;
-  final double? borderWidth;
-  final double? borderRadius;
+  final Color? circleColor, dotColor, backgroundColor;
+  final int? circleDuration, dotDuration;
+  final double? borderWidth, borderRadius;
   final BoxShape? shape;
 
   void _onCursorUpdate(PointerEvent event, BuildContext context) =>
@@ -33,14 +30,14 @@ class AnimatedCursor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => AnimatedCursorProvider(),
+      create: (_) => AnimatedCursorProvider(),
       child: Consumer<AnimatedCursorProvider>(
         child: child,
         builder: (context, provider, child) {
           final state = provider.state;
           return Stack(
             children: [
-              if (child != null) child,
+              if (child != null) child!,
               Positioned.fill(
                 child: MouseRegion(
                   opaque: false,
@@ -48,11 +45,8 @@ class AnimatedCursor extends StatelessWidget {
                   onHover: (e) => _onCursorUpdate(e, context),
                 ),
               ),
-
-              /// Circle
-              Visibility(
-                visible: state.offset != Offset.zero,
-                child: AnimatedPositioned(
+              if (state.offset != Offset.zero) ...[
+                AnimatedPositioned(
                   left: state.offset.dx - state.size.width / 1.8,
                   top: state.offset.dy - state.size.height / 1.8,
                   width: state.size.width,
@@ -78,12 +72,7 @@ class AnimatedCursor extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),
-
-              /// Dot
-              Visibility(
-                visible: state.offset != Offset.zero,
-                child: AnimatedPositioned(
+                AnimatedPositioned(
                   left: state.offset.dx - state.size.width / 7.2,
                   top: state.offset.dy - state.size.height / 7.2,
                   width: 7,
@@ -102,34 +91,11 @@ class AnimatedCursor extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),
+              ],
             ],
           );
         },
       ),
     );
-  }
-}
-
-class AnimatedCursorState {
-  const AnimatedCursorState({
-    this.offset = Offset.zero,
-    this.size = kDefaultSize,
-  });
-
-  static const Size kDefaultSize = Size(40, 40);
-
-  final Offset offset;
-  final Size size;
-}
-
-class AnimatedCursorProvider extends ChangeNotifier {
-  AnimatedCursorProvider();
-
-  AnimatedCursorState state = const AnimatedCursorState();
-
-  void updateCursorPosition(Offset pos) {
-    state = AnimatedCursorState(offset: pos);
-    notifyListeners();
   }
 }

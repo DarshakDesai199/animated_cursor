@@ -1,36 +1,67 @@
+![Alt Text](https://github.com/DarshakDesai199/animated_cursor/blob/main/screenRecoding/Screen%20Recording%202024-02-06%20at%202.12.16%20PM.gif)
+
 ## Animated Cursor Package
 
-## Version: 0.0.1
+[![View on GitHub](https://github.com/SimformSolutionsPvtLtd/flutter_showcaseview/workflows/Build/badge.svg?branch=master)](https://github.com/DarshakDesai199/animated_cursor)
 
-## Description
-    Welcome to the Animated Cursor package for Flutter! This package provides a customizable animated cursor widget that you can easily integrate into your Flutter projects.
+     Welcome to the Animated Cursor package for Flutter! This package provides a customizable animated cursor widget that you can easily integrate into your Flutter projects.
 
-## Installation
-    To use this package, add 'animated_cursor' as a dependency in your pubspec.yaml file:
+## Installing
 
-## dependencies:
-    animated_cursor: ^0.0.1
+Add dependency to ```pubspec.yaml```
+To use the latest version of `your_package_name`, add the following line to your `pubspec.yaml`file:
+
+```yaml
+dependencies:
+animated_cursor: ^0.0.1
+```
+
+Install it
+You can install packages from the command line:
+with ```Flutter```:
+
+```shell    
+$ flutter pub get
+```
 
 ## Then run:
+
     flutter pub get
 
-## Usage
-    To use the Animated Cursor widget in your Flutter app, import the package and add the widget to your widget tree:
+Import the package
 
-## Properties
-    child: Widget or Screen - The child widget beneath the animated cursor.
-    cursor: MouseCursor - The cursor to be displayed when the mouse is over the child widget.
-    circleColor: Color - Color of the animated circle.
-    dotColor: Color - Color of the animated dot.
-    backgroundColor: Color - Background color of the cursor.
-    circleDuration: Duration - Duration of the animated circle's appearance.
-    dotDuration: Duration - Duration of the animated dot's appearance.
-    borderWidth: double - Width of the cursor's border.
-    shape: CursorShape - Shape of the cursor (Circle or Rectangle).
-    borderRadius: BorderRadius - Border radius for the cursor (applicable when shape is set to Rectangle).
+```dart
+import 'package:animated_cursor/animated_cursor.dart';
+```
+
+## Usage
+
+```dart
+AnimatedCursor(
+circleColor: Colors.red,
+dotColor: Colors.red,
+backgroundColor: Colors.black,
+borderWidth: 2,
+child: Container(color: Colors.black)
+);
+```
+
+## Properties of ```Animated Cursor```:
+
+| Name            | Type          | Default Behaviour        | Description                                                               |
+|-----------------|---------------|--------------------------|---------------------------------------------------------------------------|
+| child           | Widget        |                          | The child widget beneath the animated cursor.                             |
+| cursor          | MouseCursor?  | SystemMouseCursors.basic | The cursor to be displayed when the mouse is over the child widget        |
+| circleColor     | Color?        | Color(0xFF4CAF50)        | Color of the animated circle.                                             |
+| dotColor        | Color?        | Color(0xFF4CAF50)        | Color of the animated dot.                                                |
+| backgroundColor | Color?        | Colors.white             | Background color of the cursor.                                           |
+| circleDuration  | Duration?     | 100                      | Duration of the animated circle's appearance.                             |
+| dotDuration     | Duration?     | 350                      | Duration of the animated dot's appearance.                                |
+| borderWidth     | double?       | 1                        | Width of the cursor's border.                                             |
+| shape           | CursorShape?  | BoxShape.circle          | Shape of the cursor (Circle or Rectangle).                                |
+| borderRadius    | BorderRadius? | 100                      | Border radius for the cursor (applicable when shape is set to Rectangle). |
 
 ## Example
-    Here's an example of how to use the Animated Cursor widget in your Flutter app:
 
 ```dart
 import 'package:animated_cursor/animated_cursor.dart';
