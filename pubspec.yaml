@@ -1,17 +1,6 @@
 name: animated_cursor
-description: '''The "Animated Cursor" package is a Flutter package designed to enhance user interface interactions by providing a visually appealing animated cursor. It offers a customizable animated cursor widget that developers can easily integrate into their Flutter applications. With this package, developers can customize various properties of the cursor, such as color, shape, duration of animations, and border width, to match the design and style of their applications.
-
-Key features of the "Animated Cursor" package include:
-
-Customizable Cursor: Developers can customize the appearance of the cursor by specifying properties such as circle color, dot color, background color, border width, and shape (circle or rectangle).
-
-Animation Control: The package allows developers to control the duration of animations for both the animated circle and dot, providing flexibility in creating smooth and visually appealing cursor effects.
-
-Seamless Integration: The cursor widget provided by the package can be seamlessly integrated into existing Flutter applications, enabling developers to enhance user interactions without significant changes to their codebase.
-
-Overall, the "Animated Cursor" package offers an easy-to-use solution for implementing animated cursors in Flutter applications, enhancing user experience and visual feedback during interactions.
-'''
-version: 0.0.1
+description: "Animated Cursor designed to enhance user interface interactions"
+version: 1.0.1
 homepage: https://github.com/DarshakDesai199/animated_cursor
 
 environment:

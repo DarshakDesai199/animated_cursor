@@ -4,16 +4,16 @@
 
 [![View on GitHub](https://github.com/SimformSolutionsPvtLtd/flutter_showcaseview/workflows/Build/badge.svg?branch=master)](https://github.com/DarshakDesai199/animated_cursor)
 
-     Welcome to the Animated Cursor package for Flutter! This package provides a customizable animated cursor widget that you can easily integrate into your Flutter projects.
+Welcome to the Animated Cursor package for Flutter! This package provides a customizable animated cursor widget that you can easily integrate into your Flutter projects.
 
 ## Installing
 
 Add dependency to ```pubspec.yaml```
-To use the latest version of `your_package_name`, add the following line to your `pubspec.yaml`file:
+To use the latest version of `animated_cursor`, add the following line to your `pubspec.yaml`file:
 
 ```yaml
 dependencies:
-animated_cursor: ^0.0.1
+animated_cursor: ^1.0.1
 ```
 
 Install it
@@ -23,10 +23,6 @@ with ```Flutter```:
 ```shell    
 $ flutter pub get
 ```
-
-## Then run:
-
-    flutter pub get
 
 Import the package
 

@@ -1,3 +1,4 @@
-## 0.0.1
+## 1.0.1
+- Updated the README.md file.
+- Added the example folder.
 
-Modify your cursor with animation.
