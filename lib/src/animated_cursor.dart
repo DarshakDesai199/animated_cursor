@@ -1,3 +1,4 @@
+import 'package:animated_cursor/src/helper.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -38,7 +39,7 @@ class AnimatedCursor extends StatelessWidget {
           final state = provider.state;
           return Stack(
             children: [
-              if (child != null) child,
+              if (child != null) child!,
               Positioned.fill(
                 child: MouseRegion(
                   opaque: false,
