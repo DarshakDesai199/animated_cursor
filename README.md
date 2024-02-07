@@ -1,10 +1,18 @@
+![Alt Text](https://fluttercommunity.dev/_github/header/Animated-Cursor)
+
+
+[![View on GitHub](https://github.com/SimformSolutionsPvtLtd/flutter_showcaseview/workflows/Build/badge.svg?branch=master)](https://github.com/DarshakDesai199/animated_cursor)
+[![View on GitHub](https://img.shields.io/pub/v/animated_cursor?label=animated_cursor)](https://pub.dev/packages/animated_cursor/score)
+[![View on Linkedin](https://img.shields.io/badge/Dev:-Darshak_Desai-blue.svg)](https://www.linkedin.com/in/DarshakDesai199)
+[![View on Github](https://img.shields.io/pub/points/animated_cursor?color=FF474C&label=pub%20points)](https://pub.dev/packages/animated_cursor/score)
+
+## Preview
 ![Alt Text](https://github.com/DarshakDesai199/animated_cursor/blob/main/screenRecoding/Screen%20Recording%202024-02-06%20at%202.12.16%20PM.gif)
 
 ## Animated Cursor Package
 
-[![View on GitHub](https://github.com/SimformSolutionsPvtLtd/flutter_showcaseview/workflows/Build/badge.svg?branch=master)](https://github.com/DarshakDesai199/animated_cursor)
-
-Welcome to the Animated Cursor package for Flutter! This package provides a customizable animated cursor widget that you can easily integrate into your Flutter projects.
+Welcome to the Animated Cursor package for Flutter! This package provides a customizable animated
+cursor widget that you can easily integrate into your Flutter projects.
 
 ## Installing
 
@@ -33,7 +41,8 @@ import 'package:animated_cursor/animated_cursor.dart';
 ## Usage
 
 ```dart
-AnimatedCursor(
+AnimatedCursor
+(
 circleColor: Colors.red,
 dotColor: Colors.red,
 backgroundColor: Colors.black,
@@ -50,7 +59,7 @@ child: Container(color: Colors.black)
 | cursor          | MouseCursor?  | SystemMouseCursors.basic | The cursor to be displayed when the mouse is over the child widget        |
 | circleColor     | Color?        | Color(0xFF4CAF50)        | Color of the animated circle.                                             |
 | dotColor        | Color?        | Color(0xFF4CAF50)        | Color of the animated dot.                                                |
-| backgroundColor | Color?        | Colors.white             | Background color of the cursor.                                           |
+| backgroundColor | Color?        | Colors.transparent       | Background color of the cursor.                                           |
 | circleDuration  | Duration?     | 100                      | Duration of the animated circle's appearance.                             |
 | dotDuration     | Duration?     | 350                      | Duration of the animated dot's appearance.                                |
 | borderWidth     | double?       | 1                        | Width of the cursor's border.                                             |
@@ -89,7 +98,10 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
 ## Additional Information
-👍 If you appreciate our solution's value and positive impact on your project,✨ show your support with a thumbs up! 🌟 Your feedback fuels our commitment to excellence.💫 Thank you for choosing us!
+
+👍 If you appreciate our solution's value and positive impact on your project,✨ show your support
+with a thumbs up! 🌟 Your feedback fuels our commitment to excellence.💫 Thank you for choosing us!
 
 **-Darshak Desai**
