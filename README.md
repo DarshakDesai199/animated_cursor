@@ -95,7 +95,6 @@ class MyApp extends StatelessWidget {
 **-Darshak Desai**
 
 ## Main Contributors
-
-| ![John Doe]([https://example.com/johndoe.jpg](https://blogger.googleusercontent.com/img/a/AVvXsEi4zbsikebIaYJUW5esbB4Co9gd2p91-EVENGDSutmgwaPqo-C9ES9R0oYSJqXg9iedKKUjJtH1ev98yX-M8-K0dmZD-qZj4y0Km_CV8-Knzhh8oidU2J067cRUBkANhs1zD9ntUhukTt4FcyVErltRdlQkvFYjrzAdhl-J3AQEnHTHqd7nw2ykkElVx8lS)) | ![Jane Smith]([https://example.com/janesmith.jpg](https://blogger.googleusercontent.com/img/a/AVvXsEi4zbsikebIaYJUW5esbB4Co9gd2p91-EVENGDSutmgwaPqo-C9ES9R0oYSJqXg9iedKKUjJtH1ev98yX-M8-K0dmZD-qZj4y0Km_CV8-Knzhh8oidU2J067cRUBkANhs1zD9ntUhukTt4FcyVErltRdlQkvFYjrzAdhl-J3AQEnHTHqd7nw2ykkElVx8lS)https://blogger.googleusercontent.com/img/a/AVvXsEi4zbsikebIaYJUW5esbB4Co9gd2p91-EVENGDSutmgwaPqo-C9ES9R0oYSJqXg9iedKKUjJtH1ev98yX-M8-K0dmZD-qZj4y0Km_CV8-Knzhh8oidU2J067cRUBkANhs1zD9ntUhukTt4FcyVErltRdlQkvFYjrzAdhl-J3AQEnHTHqd7nw2ykkElVx8lS) |
+| ![ Doe](https://blogger.googleusercontent.com/img/a/AVvXsEi4zbsikebIaYJUW5esbB4Co9gd2p91-EVENGDSutmgwaPqo-C9ES9R0oYSJqXg9iedKKUjJtH1ev98yX-M8-K0dmZD-qZj4y0Km_CV8-Knzhh8oidU2J067cRUBkANhs1zD9ntUhukTt4FcyVErltRdlQkvFYjrzAdhl-J3AQEnHTHqd7nw2ykkElVx8lS) | ![Jane](https://blogger.googleusercontent.com/img/a/AVvXsEi4zbsikebIaYJUW5esbB4Co9gd2p91-EVENGDSutmgwaPqo-C9ES9R0oYSJqXg9iedKKUjJtH1ev98yX-M8-K0dmZD-qZj4y0Km_CV8-Knzhh8oidU2J067cRUBkANhs1zD9ntUhukTt4FcyVErltRdlQkvFYjrzAdhl-J3AQEnHTHqd7nw2ykkElVx8lS) |
 |-----------------------------------------------|-------------------------------------------------|
 | [@johndoe](https://github.com/johndoe)       | [@janesmith](https://github.com/janesmith)     |
