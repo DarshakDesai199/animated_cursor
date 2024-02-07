@@ -93,3 +93,16 @@ class MyApp extends StatelessWidget {
 👍 If you appreciate our solution's value and positive impact on your project,✨ show your support with a thumbs up! 🌟 Your feedback fuels our commitment to excellence.💫 Thank you for choosing us!
 
 **-Darshak Desai**
+
+## Main Contributors
+
+<div style="display: flex; justify-content: space-around;">
+  <div style="text-align: center;">
+    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi4zbsikebIaYJUW5esbB4Co9gd2p91-EVENGDSutmgwaPqo-C9ES9R0oYSJqXg9iedKKUjJtH1ev98yX-M8-K0dmZD-qZj4y0Km_CV8-Knzhh8oidU2J067cRUBkANhs1zD9ntUhukTt4FcyVErltRdlQkvFYjrzAdhl-J3AQEnHTHqd7nw2ykkElVx8lS" alt="John Doe" width="100">
+    <p><a href="https://github.com/johndoe">@johndoe</a></p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEi4zbsikebIaYJUW5esbB4Co9gd2p91-EVENGDSutmgwaPqo-C9ES9R0oYSJqXg9iedKKUjJtH1ev98yX-M8-K0dmZD-qZj4y0Km_CV8-Knzhh8oidU2J067cRUBkANhs1zD9ntUhukTt4FcyVErltRdlQkvFYjrzAdhl-J3AQEnHTHqd7nw2ykkElVx8lS" alt="Jane Smith" width="100">
+    <p><a href="https://github.com/janesmith">@janesmith</a></p>
+  </div>
+</div>
