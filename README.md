@@ -93,3 +93,19 @@ class MyApp extends StatelessWidget {
 👍 If you appreciate our solution's value and positive impact on your project,✨ show your support with a thumbs up! 🌟 Your feedback fuels our commitment to excellence.💫 Thank you for choosing us!
 
 **-Darshak Desai**
+
+
+
+## Main Contributors
+
+### John Doe
+![John Doe](https://example.com/johndoe.jpg)  
+[@johndoe](https://github.com/johndoe)  
+- Added feature X
+- Fixed bug Y
+
+### Jane Smith
+![Jane Smith](https://example.com/janesmith.jpg)  
+[@janesmith](https://github.com/janesmith)  
+- Improved documentation
+- Provided code refactoring
