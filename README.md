@@ -13,7 +13,7 @@ To use the latest version of `animated_cursor`, add the following line to your `
 
 ```yaml
 dependencies:
-animated_cursor: ^1.0.1
+  animated_cursor: ^1.0.4
 ```
 
 Install it
@@ -89,3 +89,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+## Additional Information
+👍 If you appreciate our solution's value and positive impact on your project,✨ show your support with a thumbs up! 🌟 Your feedback fuels our commitment to excellence.💫 Thank you for choosing us!
+
+**-Darshak Desai**
