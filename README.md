@@ -7,7 +7,7 @@
 [![View on Github](https://img.shields.io/pub/points/animated_cursor?color=FF474C&label=pub%20points)](https://pub.dev/packages/animated_cursor/score)
 
 ## Preview
-![Alt Text](https://github.com/DarshakDesai199/animated_cursor/blob/main/screenRecoding/Screen%20Recording%202024-02-06%20at%202.12.16%20PM.gif)
+![Alt Text](https://github.com/DarshakDesai199/animated_cursor/blob/main/screenRecoding/preview.gif)
 
 ## Animated Cursor Package
 
