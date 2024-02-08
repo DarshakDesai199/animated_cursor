@@ -1,9 +1,8 @@
 ![Alt Text](https://fluttercommunity.dev/_github/header/Animated-Cursor)
 
-
 [![View on GitHub](https://github.com/SimformSolutionsPvtLtd/flutter_showcaseview/workflows/Build/badge.svg?branch=master)](https://github.com/DarshakDesai199/animated_cursor)
-[![View on GitHub](https://img.shields.io/pub/v/animated_cursor?label=animated_cursor)](https://pub.dev/packages/animated_cursor/score)
-[![View on Linkedin](https://img.shields.io/badge/Dev:-Darshak_Desai-blue.svg)](https://www.linkedin.com/in/DarshakDesai199)
+[![View on GitHub](https://img.shields.io/pub/v/animated_cursor?label=animated_cursor)](https://pub.dev/packages/animated_cursor)
+[![View on Linkedin](https://img.shields.io/badge/Dev:-Darshak_Desai-blue.svg)](https://in.linkedin.com/in/darshak-desai-17251823b)
 [![View on Github](https://img.shields.io/pub/points/animated_cursor?color=FF474C&label=pub%20points)](https://pub.dev/packages/animated_cursor/score)
 
 ## Preview
@@ -21,7 +20,7 @@ To use the latest version of `animated_cursor`, add the following line to your `
 
 ```yaml
 dependencies:
-  animated_cursor: ^1.0.4
+  animated_cursor: ^1.0.5
 ```
 
 Install it

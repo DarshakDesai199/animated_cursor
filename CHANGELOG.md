@@ -1,3 +1,6 @@
+## 1.0.5
+- Updated the README.md file.
+
 ## 1.0.4
 - Updated the documentation for the package.
 
